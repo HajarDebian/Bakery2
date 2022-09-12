@@ -1,0 +1,404 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.sideicons{
+   z-index: 1000;
+   width: 2%;
+   text-align: center;
+   position: absolute;
+   top: 200px;
+   right: 0;
+   position: fixed;
+}
+.sideicons img{
+    width: 80%;
+}
+.sideicons .frst{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.sideicons .scnd{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.home{
+    background-image: url(../Images/drew-coffman-1872.jpg);
+    height: 600px;
+    background-size: 100% 100%;
+}
+.navbar{
+    margin: auto;
+    width: 100%;
+    position: fixed;
+}
+.logo img{
+    width: 150px;
+    padding-top: 20px;
+    float: left;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li{
+    float: right;
+    padding: 20px 15px;
+}
+.container{
+    margin: auto;
+    width: 90%;
+}
+.clr{
+    clear: both;
+}
+.caption{
+    margin: auto;
+    
+    text-align: center;
+}
+.caption .wel{
+    color: white;
+    padding-top: 80px;
+}
+.caption h1, .caption p{
+    padding: 30px;
+    color: white;
+}
+.caption p{
+    font-size: 22px;
+}
+.caption h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+button{
+    padding: 15px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.learn{
+    background-color: #8e7754;
+    border: none;
+}
+.contact{
+    background-color: transparent;
+    border: white solid 1px;
+}
+.who{
+    margin-top: 70px;
+}
+.who h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+.cont{
+    margin: auto;
+    width: 90%;
+}
+.whoimg{
+    width: 40%;
+    float: left;
+}
+.whoimg img{
+    width: 100%;
+}
+.whotxt{
+    text-align: center;
+    float: right;
+    width: 50%;
+    padding: 50px;
+}
+.iconstxt{
+    margin-top: 20px;
+}
+.iconstxt img{
+    float: left;
+    width: 50px;
+}
+.iconstxt p{
+    float: left;
+    padding-top: 20px;
+}
+.location{
+    background-color: #f8f8f8;
+    margin-top: 70px;
+    overflow: hidden;
+    height: 490px;
+}
+.location .cont{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.location .loctxt{
+    text-align: center;
+    width: 50%;
+    float: left;
+    color: #686868;
+}
+.loctxt h3{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.location .locimg{
+    width: 40%;
+    float: right;
+}
+.location .locimg img{
+    width: 100%;
+}
+.ourbaking{
+    margin-top: 70px;
+    height: 490px;
+    color: #686868;
+}
+.ourbaking .cont{
+    text-align: center;
+    padding-top: 30px;
+}
+.bakings .baking{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+.bakings .baking img{
+    width: 90%;
+    height: 280px;
+}
+.bakings .baking h4, .ourbaking h3{
+    margin: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bakings .baking p{
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+.contactinfo{
+    background-color: #f8f8f8;
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+.contactinfo .cont{
+    padding-top: 30px;
+}
+.containfo{
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+}
+.contactinfo h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+.infodetails{
+    float: left;
+    margin-top: 50px;
+}
+.infodetails img{
+    float: left;
+    width: 50px;
+}
+.infodetails p{
+    float: left;
+}
+.infodetails .para{
+    float: left;
+    padding: 15px;
+}
+.map{
+    float: right;
+    width: 40%;
+}
+.map iframe{
+    width: 90%; 
+    height: 450px;
+}
+.aboutus{
+    background-color: #403d38;
+    height: auto;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.aboutus .cont{
+    padding-top: 50px;
+}
+.aboutus .txt{
+    float: left;
+    width: 25%;
+    font-size: 18px;
+    color: #969696;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+.aboutus .txt h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: white;
+}
+.why{
+    float: left;
+    width: 25%;
+    font-size: 18px;
+    color: #969696;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+.why h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: white;
+}
+.why .listicon img{
+    float: left;
+}
+.why .listicon p{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.why .listicon hr{
+    border: #2e2c28 solid 1px;
+}
+.opening{
+    float: left;
+    width: 25%;
+    font-size: 18px;
+    color: #969696;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+.opening h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: white;
+}
+.opening .listicon img{
+    float: left;
+}
+.opening .listicon p{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.opening .listicon hr{
+    border: #2e2c28 solid 1px;
+}
+.details{
+    float: left;
+    width: 25%;
+    font-size: 18px;
+    color: #969696;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+.details h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: white;
+}
+.details .listicon img{
+    float: left;
+}
+.details .listicon p{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.details .listicon hr{
+    border: #2e2c28 solid 1px;
+}
+.footer{
+    background-color: #353330;
+    margin: auto;
+}
+.footer .cont{
+    padding-top: 40px;
+    text-align: center;
+}
+.footer .cont .logoo{
+    width: 250px;
+    padding-bottom: 20px;
+}
+.footer .cont p{
+    font-size: 14px;
+    color: #969696;
+    padding-bottom: 10px;
+}
+.footer .cont img{
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 568px){
+    .whoimg{
+        width: 100%;
+    }
+    .whotxt{
+        width: 100%;
+    }
+    .location .loctxt{
+        width: 100%;
+    }
+    .location .locimg{
+        width: 100%;
+    }
+    .bakings .baking{
+        width: 100%;
+    }
+    .containfo{
+        width: 100%;
+    }
+    .map{
+        width: 100%;
+    }
+    .aboutus .txt{
+        width: 100%;
+    }
+    .why{
+        width: 100%;
+    }
+    .opening{
+        width: 100%;
+    }
+    .details{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    .whoimg{
+        width: 100%;
+    }
+    .whotxt{
+        width: 100%;
+    }
+    .location .loctxt{
+        width: 100%;
+    }
+    .location .locimg{
+        width: 100%;
+    }
+    .bakings .baking{
+        width: 30%;
+    }
+    .containfo{
+        width: 100%;
+    }
+    .map{
+        width: 100%;
+    }
+    .aboutus .txt{
+        width: 50%;
+    }
+    .why{
+        width: 50%;
+    }
+    .opening{
+        width: 50%;
+    }
+    .details{
+        width: 50%;
+    }
+}
